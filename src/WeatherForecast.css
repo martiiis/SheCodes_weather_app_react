@@ -1,0 +1,39 @@
+/** @format */
+
+.weather-forecast {
+  text-align: center;
+  font-family: "Neucha", cursive;
+  width: 95%;
+  padding: 20px 10px;
+  margin: 10px auto 10px auto;
+  border: 2px dotted #21aba5;
+  background-color: transparent;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #0ea0a54d;
+}
+.weather-forecast-date {
+  
+  font-size: 25px;
+  color: #12b9b1;
+}
+.weather-forecast-temperatures {
+  padding-top: 20px;
+  color: #21aba5;
+}
+
+.weather-forecast-temperature-max {
+  font-weight: bold;
+  font-size: 20px;
+}
+.weather-forecast-temperature-min {
+  font-size: 20px;
+  color: #5f6363;
+}
+
+.weather-forecast-date {
+  text-align: center;
+}
+
+.WeatherForecast-icon{
+  color:#21aba5;
+}

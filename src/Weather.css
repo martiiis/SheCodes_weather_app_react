@@ -1,0 +1,88 @@
+/** @format */
+.WeatherInfo {
+  color: white;
+}
+.WeatherInfo .city {
+  color: white;
+  margin: 15px;
+  font-size: 50px;
+}
+.Weather .temperature {
+  display: inline;
+  font-size: 65px;
+}
+
+.Weather .unitC {
+  font-size: 20px;
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+
+.Weather .weather-values,
+.WeatherInfo .date {
+  font-size: 18px;
+  text-transform: capitalize;
+  margin: 40px 10px;
+}
+
+.Weather .enter-city {
+  padding: 3px 10px;
+  width: 50%;
+  border: 2px solid #17c2e4;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 25px;
+  margin-right: 5px;
+  box-shadow: 5px 5px 5px #0ea0a54d;
+}
+
+.Weather .btn-info {
+  border: none;
+  padding: 6px 10px;
+  font-size: 13px;
+  background-color: #21aba5;
+  transition: all 200ms ease-in-out;
+  margin-right: 5px;
+  box-shadow: 5px 5px 5px #0ea0a54d;
+}
+.Weather .btn-info:hover {
+  background-color: #45eba5;
+}
+.WeatherInfo .container-fluid-details {
+  text-align: center;
+  font-family: "Neucha", cursive;
+  margin-top: 150px;
+  width: 70%;
+  padding: 10px 10px;
+  margin: 2px auto 35px auto;
+  border: 1.5px dotted #21aba5;
+  background-color: transparent;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #0ea0a54d;
+}
+.WeatherInfo .weather-details {
+  text-align: center;
+  font-size: 20px;
+}
+.WeatherInfo .fa-wind,
+.WeatherInfo .fa-tint {
+  color: #31d2f2;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.WeatherForecast-day {
+  font-size: 24px;
+  margin-bottom: 150px;
+}
+
+.WeatherForecast-max,
+.WeatherForecast-min {
+  font-size: 18px;
+}
+
+.WeatherForecast-min {
+  opacity: 0.8;
+}
