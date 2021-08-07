@@ -1,4 +1,16 @@
 /** @format */
+:root {
+  --branding-color: #d789d7;
+  --secondary-color: #9d65c9;
+  --branding-background: linear-gradient(
+    to right,
+    rgb(173, 83, 137),
+    rgb(60, 16, 83)
+  );
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-font-family: "Baloo 2", cursive;
+  --secondary-font-family: "Delius Unicase", cursive;
+}
 .Footer {
   margin: 10px 250px;
 }
