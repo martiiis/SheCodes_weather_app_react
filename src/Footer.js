@@ -40,10 +40,10 @@ export default function Footer() {
           </div>
         </div>
         <div class="footer-info">
-          Designed and built by Marta Pineda
+          Designed and built by <strong> Marta Pineda</strong>
           <br />
           <a
-            href="https://github.com/martiiis/portfolio_project-main"
+            href="https://github.com/martiiis/weather_app_shecodes_react"
             target="_blank"
             class="git-link"
             rel="noreferrer"
