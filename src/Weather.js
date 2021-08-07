@@ -54,15 +54,10 @@ export default function Weather(props) {
               onChange={handleCityChange}
             />
             <input type="submit" value="Search" className="btn btn-info" />
-            <input
-              type="button"
-              value="📍 My location"
-              className="btn btn-info"
-            />
           </form>
         </div>
         <WeatherInfo data={weatherData} />
-        <br/>
+        <br />
         <WeatherForecast data={weatherData} />
       </div>
     );
